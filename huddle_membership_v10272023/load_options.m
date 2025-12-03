@@ -1,0 +1,16 @@
+opt.blur_kernel = [3,3];
+opt.n_erode = 1;
+opt.n_dilate = 1;
+opt.se_erode = strel('disk', 4, 4);
+opt.se_dilate = strel('disk', 4, 4);
+opt.std_multiplier = 2;
+%opt.std_multiplier = 3;
+opt.if_generate_contours = true;
+opt.if_save = true;
+opt.n_members = 4;
+opt.fs = 30;
+% opt.fs = get_sampling_rate([video_path 'timeStamp.csv']);
+opt.fc = 1; % highpass cut
+opt.colors = {'blue', 'green', 'red', 'cyan', 'magenta', 'yellow'};
+opt.shortest_interval_threshold = 30;
+opt.using_closer_label_instead_of_smallest=true;

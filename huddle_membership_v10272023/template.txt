@@ -1,0 +1,27 @@
+Caltech Behavior Annotator - Annotation File
+
+Configuration file:
+other o
+huddle h
+active_enter a
+passive_enter p
+active_leave l
+passive_leave u
+rest r
+sniff s
+self-groom g
+allogroom b
+approach c
+follow f
+rear e
+human_int t
+being_sniffed d
+escape x
+ToyInv q
+SocialInv w
+two i
+twoTwo j
+three k
+four n
+extra m
+less z
